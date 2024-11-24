@@ -184,7 +184,7 @@ section {
 }
 
 .breadcrumbs .index-header h2 {
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 600;
   color: #0B264C;
   font-family:'arial';
@@ -192,8 +192,8 @@ section {
 
 .breadcrumbs .index-header p {
     color: #0B264C;
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 32px;
 }
 .title-area{
     font-size: 40px;
@@ -207,6 +207,7 @@ section {
   font-weight: 500;
   color: #0B264C;
   text-align: center;
+  line-height: 27px;
 }
 
 .index-area{
@@ -223,8 +224,15 @@ section {
     color: #0058D8;
     letter-spacing: 1px;
 }
-.area02-title p{
+.area02-p{
+  background-color: #ebf7f9;
+  padding: 10px 15px;
+  margin-top: 10px;
+  text-align: left;
+}
+ .area02-p p{
   font-size: 18px;
+  line-height: 24px;
   color: #344047;
   font-weight: 500;
 }
@@ -293,7 +301,7 @@ section {
   position: absolute;
   display: inline-block;
   word-wrap: break-word;
-  line-height: 26px;
+  line-height: 39px;
 }
 
 .index-area03 .area03 img{
@@ -303,6 +311,24 @@ section {
   padding-right: 15px;
     margin-right: 15px;
 }
+.index-area04{
+  position: relative;
+  display: inline-block;
+} 
+
+.area04{
+display: inline-block;
+text-align: center;
+border: 10px solid #F8F8F8;
+margin-bottom: 15px
+}
+
+.area04 img{
+    width: 80%;
+    display: inline-block;
+}
+
+
 
 .index-footer-info{
   margin-top: 70px;
@@ -371,13 +397,13 @@ section {
 }
 
 .pages-images {
-  position: absolute;
-  max-width: 349px;
-  background: #ffffff;
-  padding: 46px;
-  border-radius: 2px;
-  top: 40px;
-  border: 2px solid #eeeeee;
+    position: absolute;
+    max-width: 349px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 2px;
+    top: 0px;
+    border: 1px solid #ededed;
 }
 
 @media screen and (max-width: 992px) {
@@ -564,7 +590,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 30px;
   margin-right: 6px;
 }
 
@@ -1387,6 +1413,212 @@ section {
 
 .hidden {
   display: none;
+}
+
+/***service***/
+.the-main-service .our-offer-carousel .owl-dots .owl-dot span {
+  background: #ffffff none repeat scroll 0 0;
+  border: 2px solid;
+  height: 15px;
+  margin: 0 5px;
+  width: 15px;
+}
+
+.the-main-service .our-offer-carousel .owl-dots .owl-dot.active span {
+  background: #10bab9 none repeat scroll 0 0;
+  border-color: #10bab9;
+}
+
+.the-main-service .item {
+  background: #ffffff none repeat scroll 0 0;
+  border-left: 2px solid #02336e;
+  -moz-box-shadow: 0 0 10px #e4e4e4;
+  /* -webkit-box-shadow: 0 0 10px #e4e4e4; */
+  -o-box-shadow: 0 0 10px #e4e4e4;
+  /* box-shadow: 0 0 10px #e4e4e4; */
+  overflow: hidden;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+  border-radius: 2px;
+}
+
+.the-main-service.text-center .item {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #eee;
+  padding: 40px;
+  border-radius: 3px;
+}
+
+.the-main-service.text-center .item i {
+  /* background: #02336e none repeat scroll 0 0; */
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #10bab9;
+  font-size: 40px;
+  height: 80px;
+  line-height: 80px;
+  /* position: relative; */
+  text-align: center;
+  width: 80px;
+  z-index: 1;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  margin-bottom: 10px;
+}
+
+/*.the-main-service.text-center .item i::after {
+  border: 2px solid #10bab9;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  content: "";
+  height: 90px;
+  display: none;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  top: -5px;
+  width: 90px;
+  z-index: -1;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}*/
+
+.the-main-service.item-border-less .item {
+  border: medium none;
+}
+
+.the-main-service .our-offer-items.less-carousel .equal-height {
+  margin-bottom: 30px;
+}
+
+.the-main-service.item-border-less .item .number {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  opacity: 0.1;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item,
+.the-main-service.center-active .single-item:nth-child(2n) .item {
+  background: #10bab9 none repeat scroll 0 0;
+}
+
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item i,
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item h4,
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item p,
+.the-main-service.center-active .single-item:nth-child(2n) .item i,
+.the-main-service.center-active .single-item:nth-child(2n) .item h4,
+.the-main-service.center-active .single-item:nth-child(2n) .item p {
+  color: #ffffff;
+}
+
+.the-main-service .item i {
+  color: #10bab9;
+  display: inline-block;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.the-main-service .item h4 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.the-main-service .item p {
+  margin: 0;
+}
+
+.the-main-service .item p a:hover{
+  color:#FFF;
+}
+
+
+
+
+.the-main-service .item i,
+.the-main-service .item h4,
+.the-main-service .item p {
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.the-main-service .item::after {
+  background: #02336e none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  width: 100%;
+  z-index: -1;
+}
+
+.the-main-service .item:hover::after {
+  left: 0;
+}
+
+.the-main-service .item:hover i,
+.the-main-service .item:hover h4,
+.the-main-service .item:hover p {
+  color: #ffffff !important;
+}
+
+.the-main-service.text-center .item:hover i::after {
+  border-color: #ffffff !important;
+}
+
+.the-main-service.text-center .item:hover i {
+  color: #ffffff !important;
+}
+
+.the-main-service.text-left .item i {
+  background: #10bab9 none repeat scroll 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 60px;
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 100px;
+  z-index: 1;
+  text-align: center;
+}
+
+.the-main-service.text-left .item i::after {
+  border: 2px solid #10bab9;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  content: "";
+  height: 120px;
+  left: -10px;
+  position: absolute;
+  top: -10px;
+  width: 120px;
 }
 
 /*--------------------------------------------------------------
